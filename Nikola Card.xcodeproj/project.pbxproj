@@ -13,6 +13,10 @@
 		6A66745E25E1283A00B7B537 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A66745D25E1283A00B7B537 /* Preview Assets.xcassets */; };
 		6A66746925E1283A00B7B537 /* Nikola_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A66746825E1283A00B7B537 /* Nikola_CardTests.swift */; };
 		6A66747425E1283A00B7B537 /* Nikola_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A66747325E1283A00B7B537 /* Nikola_CardUITests.swift */; };
+		6A66748725E12BAA00B7B537 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A66748625E12BAA00B7B537 /* Pacifico-Regular.ttf */; };
+		6A66748D25E12D1400B7B537 /* PacificoFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A66748C25E12D1400B7B537 /* PacificoFontModifier.swift */; };
+		6A66749525E1308F00B7B537 /* JobTitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A66749425E1308F00B7B537 /* JobTitleModifier.swift */; };
+		6AF09E5225E14E9B0058C301 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF09E5125E14E9B0058C301 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		6A66746F25E1283A00B7B537 /* Nikola CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nikola CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A66747325E1283A00B7B537 /* Nikola_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nikola_CardUITests.swift; sourceTree = "<group>"; };
 		6A66747525E1283A00B7B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A66748625E12BAA00B7B537 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		6A66748C25E12D1400B7B537 /* PacificoFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacificoFontModifier.swift; sourceTree = "<group>"; };
+		6A66749425E1308F00B7B537 /* JobTitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTitleModifier.swift; sourceTree = "<group>"; };
+		6AF09E5125E14E9B0058C301 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,11 @@
 		6A66745525E1283900B7B537 /* Nikola Card */ = {
 			isa = PBXGroup;
 			children = (
+				6A66748B25E12CBC00B7B537 /* Modifiers */,
+				6A66748525E12B9800B7B537 /* fonts */,
 				6A66745625E1283900B7B537 /* Nikola_CardApp.swift */,
 				6A66745825E1283900B7B537 /* ContentView.swift */,
+				6AF09E5125E14E9B0058C301 /* InfoView.swift */,
 				6A66745A25E1283A00B7B537 /* Assets.xcassets */,
 				6A66745F25E1283A00B7B537 /* Info.plist */,
 				6A66745C25E1283A00B7B537 /* Preview Content */,
@@ -128,6 +139,23 @@
 				6A66747525E1283A00B7B537 /* Info.plist */,
 			);
 			path = "Nikola CardUITests";
+			sourceTree = "<group>";
+		};
+		6A66748525E12B9800B7B537 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6A66748625E12BAA00B7B537 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		6A66748B25E12CBC00B7B537 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				6A66748C25E12D1400B7B537 /* PacificoFontModifier.swift */,
+				6A66749425E1308F00B7B537 /* JobTitleModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A66748725E12BAA00B7B537 /* Pacifico-Regular.ttf in Resources */,
 				6A66745E25E1283A00B7B537 /* Preview Assets.xcassets in Resources */,
 				6A66745B25E1283A00B7B537 /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A66745925E1283900B7B537 /* ContentView.swift in Sources */,
+				6A66749525E1308F00B7B537 /* JobTitleModifier.swift in Sources */,
+				6A66748D25E12D1400B7B537 /* PacificoFontModifier.swift in Sources */,
+				6AF09E5225E14E9B0058C301 /* InfoView.swift in Sources */,
 				6A66745725E1283900B7B537 /* Nikola_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
